@@ -14,12 +14,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background: rgb(7,1,46);
-    background: linear-gradient(0deg, rgba(7,1,46,1) 0%, rgba(59,49,118,1) 25%, rgba(54,5,79,1) 50%, rgba(89,42,113,1) 75%, rgba(54,5,79,1) 100%); */
 }
 
 body {
-    background-color: red;
+    color: white;
 }
 
 .product-flex-container {
@@ -32,9 +30,18 @@ body {
     flex-direction: row;
 }
 
+.product-inner-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .image-product-flex-container {
     display: flex;
     flex-direction: row;
+}
+
+.image-product-flex-container img {
+    width: 100vw;
 }
 
 .text-product-flex-container {
