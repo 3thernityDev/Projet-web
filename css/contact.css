@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&family=Open+Sans:wght@300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&family=Open+Sans:wght@300;400;500;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root {
+    --primary-color: #36054F;
+    --secondary-color: #160C52;
+    --dark-purple: #1E002D;
+    --dark-blue: #07012E;
+    --purple: #592a71;
+    --blue: #3B3176;
+    --light-purple: #836294;
+    --light-blue: #716A9A;
+    --linear-gradient: linear-gradient(180deg, rgba(54, 5, 79, 0) 0%, rgba(89, 42, 113, 0.333649) 25%, rgba(54, 5, 79, 0.640631) 50%, rgba(59, 49, 118, 0.809092) 76.04%, #07012E 99.48%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+

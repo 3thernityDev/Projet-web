@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&family=Open+Sans:wght@300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&family=Open+Sans:wght@300;400;500;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 :root {
     --primary-color: #36054F;
     --secondary-color: #160C52;
@@ -18,34 +21,74 @@
 
 body {
     color: white;
+    
 }
 
 .product-flex-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 1em;
 }
 
 .name-product-flex-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.name-product-flex-container h1 {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 1.25rem;
+}
+
+.name-product-flex-container h2 {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size : 1.5rem;
 }
 
 .product-inner-flex-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .image-product-flex-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .image-product-flex-container img {
     width: 100vw;
+    height: auto;
+    border-radius: 0;
 }
 
 .text-product-flex-container {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    border: 0.25em solid white;
+    padding: 1em;
+    margin: 1em;
+}
+
+.text-product-flex-container h3 {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.text-product-flex-container p {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    text-align: left;
 }
 
