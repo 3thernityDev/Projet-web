@@ -10,32 +10,35 @@
     /* --linear-gradient: linear-gradient(180deg, rgba(54, 5, 79, 0) 0%, rgba(89, 42, 113, 0.333649) 25%, rgba(54, 5, 79, 0.640631) 50%, rgba(59, 49, 118, 0.809092) 76.04%, #07012E 99.48%); */
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background: rgb(7,1,46);
+    background: linear-gradient(0deg, rgba(7,1,46,1) 0%, rgba(59,49,118,1) 25%, rgba(54,5,79,1) 50%, rgba(89,42,113,1) 75%, rgba(54,5,79,1) 100%); */
 }
 
 body {
-    background-color: rgb(7,1,46);
-    background-image: linear-gradient(0deg, rgba(7,1,46,1) 0%, rgba(59,49,118,1) 25%, rgba(54,5,79,1) 50%, rgba(89,42,113,1) 75%, rgba(54,5,79,1) 100%);
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
-    color: white;
+    background-color: red;
 }
 
-header{
-    height: 75px;
-    background-color: #36054F;
-    color: aliceblue;
+.product-flex-container {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
-.logo img{
-width: 50px;
-border-radius: 25px;
+.name-product-flex-container {
+    display: flex;
+    flex-direction: row;
 }
 
+.image-product-flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-product-flex-container {
+    display: flex;
+    flex-direction: column;
+}
 
